@@ -340,7 +340,7 @@ checksum = "0ee1c47aaa256ecabcaea351eae4a9b01ef39ed810004e298d2511ed284b1525"
 [[package]]
 name = "msfs"
 version = "0.0.1-alpha.2"
-source = "git+https://github.com/flybywiresim/msfs-rs?branch=main#2208e6229a2b924c48ea8cf36bda6cbc78a452ac"
+source = "git+https://github.com/flybywiresim/msfs-rs?branch=main#96625aed049516aad8b5d903c42453aa5d84830d"
 dependencies = [
  "bindgen",
  "cc",
@@ -353,7 +353,7 @@ dependencies = [
 [[package]]
 name = "msfs_derive"
 version = "0.0.1-alpha.2"
-source = "git+https://github.com/flybywiresim/msfs-rs?branch=main#2208e6229a2b924c48ea8cf36bda6cbc78a452ac"
+source = "git+https://github.com/flybywiresim/msfs-rs?branch=main#96625aed049516aad8b5d903c42453aa5d84830d"
 dependencies = [
  "msfs_sdk",
  "quote",
@@ -363,7 +363,7 @@ dependencies = [
 [[package]]
 name = "msfs_sdk"
 version = "0.0.1-alpha.2"
-source = "git+https://github.com/flybywiresim/msfs-rs?branch=main#2208e6229a2b924c48ea8cf36bda6cbc78a452ac"
+source = "git+https://github.com/flybywiresim/msfs-rs?branch=main#96625aed049516aad8b5d903c42453aa5d84830d"
 
 [[package]]
 name = "nom"
@@ -619,6 +619,14 @@ dependencies = [
  "num-derive",
  "num-traits",
  "rand",
+ "uom",
+]
+
+[[package]]
+name = "tcas"
+version = "0.1.0"
+dependencies = [
+ "msfs",
  "uom",
 ]
 

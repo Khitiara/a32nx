@@ -1,0 +1,15 @@
+[package]
+name = "tcas"
+version = "0.1.0"
+authors = ["FlyByWire Simulations"]
+edition = "2018"
+
+[lib]
+name = "tcas"
+crate-type = ["cdylib"]
+test = false
+doc = false
+
+[dependencies]
+uom = "0.30.0"
+msfs = { git = "https://github.com/flybywiresim/msfs-rs", branch = "main" }
